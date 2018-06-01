@@ -1,0 +1,18 @@
+<div style="padding: 5px;">
+    <!-- <nav class="navbar navbar-default"> -->
+    <ul class="nav justify-content-center" *ngFor="let routeLink of routeLinks; let i = index;">
+        <li class="inline">
+            <a md-tab-link [routerLink]="routeLink.link" 
+                    routerLinkActive="mat-tab-link-active" 
+                    #rla="routerLinkActive" 
+                    (click)="activeLinkIndex = i"
+                    [routerLinkActiveOptions]="{exact: true}">
+                
+                {{routeLink.label}}
+            
+            </a>
+        </li>
+    </ul>
+    <!-- </nav> -->
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,13 @@
+img{
+    float:left;
+} 
+h1{
+    overflow: auto;
+} 
+
+.card title{
+    float:left;
+}
+.card txt{
+    overflow: auto;
+}

@@ -1,0 +1,24 @@
+
+/* hide the blue outline */
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  p {
+    margin: 0px;
+    color: #fff;
+    font-size: 30px;
+    width: 11%;
+  }
